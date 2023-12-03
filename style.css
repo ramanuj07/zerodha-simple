@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav--home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+.list--items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.zerodha--logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.row--home{
+    margin-top: 1.5rem;
+    opacity: 20%;
+}
+
+.image--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+.home--image {
+    width: 60%;
+}
+
+.headings--home{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #424242;
+    padding-top: 4rem;
+
+}
+
+.main--heading{
+    font-weight: 900;
+}
+
+.main--subheading{
+    padding-top: 1rem;
+}
+
+.button--wrapper{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.button--home{
+    color: white;
+    background-color: #387ed1;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.portfolio--wrapper{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+}
