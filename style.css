@@ -64,18 +64,15 @@
 .button--wrapper{
     text-align: center;
     padding-top: 2rem;
+    border-radius: 5px;
 }
 
 .button--home{
-    color: white;
+    color: #fff;
     background-color: #387ed1;
     cursor: pointer;
-    padding: 0.5rem;
-}
-
-.portfolio--wrapper{
-    padding-top: 7rem;
-    display: flex;
-    flex-direction: column;
-    width:max-content;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: 1.2em;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
 }
